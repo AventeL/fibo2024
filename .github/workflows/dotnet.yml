@@ -69,7 +69,7 @@ jobs:
       image_context: .
       image_file: "./Dockerfile"
       docker_registry: "ghcr.io"
-      docker_repository: "AventeL"
+      docker_repository: "aventel"
     secrets:
       DOCKER_USERNAME: ${{ github.actor }}
       DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }} 
