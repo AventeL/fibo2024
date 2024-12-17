@@ -8,13 +8,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Leonardo\Leonardo.csproj"/>
+        <ProjectReference Include="..\Leonardo\Leonardo.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <Content Include="..\..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     </ItemGroup>
 
 </Project>
